@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SD Group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    
+    
+    
+    <div class="parallax">
+        <div class="language-selector">
+            <select onchange="changeLanguage(this.value)">
+                <option value="pl">Polski</option>
+                <option value="en">English</option>
+                <option value="ua">Українська</option>
+                <option value="ru">Русский</option>
+                
+            </select>
+            
+        </div>
+        
+        <header>
+            <h1 data-i18n="header.title">Узнайте больше о наших услугах и возможностях аренды автомобилей как для работы в такси, так и для личных нужд.</h1>
+            <p data-i18n="header.subtitle">Присоединяйтесь к числу довольных клиентов SD Group и наслаждайтесь комфортом и безопасностью наших транспортных средств!</p>
+            <button onclick="scrollToFooter()" data-i18n="header.button">Contact Us</button>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#sales">Продаж авто</a></li>
+                <li><a href="#leasing">Допомога в лізингу</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    
+   
+
+    <%- include("partials/services.ejs") %>
+    
+    <section id="about">
+        <div class="about-container">
+            <img  src="/images/image.png" alt="Taxi">
+            <div class="about-text">
+                <h2 data-i18n="about.title">О нас</h2>
+                <p data-i18n="about.paragraphs.0">Наша компания SD Group специализируется на аренде автомобилей и работе в сфере такси с момента своего основания. Мы понимаем потребности водителей, которые хотят работать таксистами, но не имеют собственного автомобиля, а также тех, кто желает работать на собственном авто. Именно поэтому все наши машины полностью оснащены и адаптированы для выполнения заказов такси.</p>
+                <p  data-i18n="about.paragraphs.1">Мы гарантируем, что, арендуя автомобиль у нас, вы получаете надежное и безопасное транспортное средство. Наши машины проходят регулярное техническое обслуживание и находятся в отличном состоянии. Мы стремимся обеспечить наших клиентов всесторонней и профессиональной поддержкой, чтобы ваше сотрудничество с SD Group было максимально комфортным и выгодным.</p>
+                <p  data-i18n="about.paragraphs.2">Наша миссия — предоставить вам лучшие условия для работы в сфере такси, обеспечив доступ к современным и надежным автомобилям по конкурентоспособным ценам. Мы работаем для того, чтобы вы могли сосредоточиться на своей работе, не беспокоясь о технических аспектах и обслуживании автомобиля.</p>
+                <p data-i18n="about.paragraphs.3">Кроме того, в SD Group вы можете работать с собственным автомобилем. Мы предлагаем выгодные условия сотрудничества для владельцев автомобилей, желающих заняться частным извозом. Присоединяйтесь к числу довольных клиентов SD Group и начните свою карьеру в такси с нами уже сегодня!</p>
+                <p data-i18n="about.paragraphs.4">Узнайте больше о наших услугах и возможностях и станьте частью успешной команды SD Group!</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <%- include("partials/cars.ejs") %>
+    
+    <%- include("partials/reasons.ejs") %>
+
+
+    <section id="requirements">
+        <h2 data-i18n="requirements.title"></h2>
+        <div class="container">
+            <div class="requirement">
+                <h3 data-i18n="requirements.items.0.title"></h3>
+                <p data-i18n="requirements.items.0.description"></p>
+            </div>
+            <div class="requirement">
+                <h3 data-i18n="requirements.items.1.title"></h3>
+                <p data-i18n="requirements.items.1.description"></p>
+            </div>
+            <div class="requirement">
+                <h3 data-i18n="requirements.items.2.title"></h3>
+                <p data-i18n="requirements.items.2.description"></p>
+            </div>
+        </div>
+    </section>
+
+    <%- include("partials/comments.ejs") %>
+    <footer id="footer">
+        <div class="logo">
+            <img src="/images/logo-footer.png" alt="SD Group Logo">
+        </div>
+        <div class="contacts">
+            <h3 data-i18n="footer.contactUs">Contact Us</h3>
+            <p>Email: <a href="mailto:sdgroup.biuro2@gmail.com">sdgroup.biuro2@gmail.com</a></p>
+            <p>Phone: <a href="tel:+48536587970">+48 536 587 970</a></p>
+            <p>Phone: <a href="tel:+48732606675">+48 732 606 675</a></p>
+        </div>
+        <div class="address">
+            <h3 data-i18n="footer.address">Address</h3>
+            <p data-i18n="footer.street"></p>
+            <p data-i18n="footer.country"></p>
+        </div>
+        
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.0/dist/umd/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-i18next@1.2.1/jquery-i18next.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
+
+    <script src="/js/scripts.js"></script>
+    <script src="/js/languages.js"></script>
+
+</body>
+</html>
