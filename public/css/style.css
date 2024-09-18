@@ -28,16 +28,16 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(43, 56, 94, 0.5); /* Adjust the opacity for the overlay */
+    background-color: rgba(43, 56, 94, 0.5); 
     z-index: 1;
 }
 
 .parallax header {
     position: relative;
     z-index: 2;
-    max-width: 1000px; /* Add a maximum width */
-    padding: 20px; /* Add padding for better spacing */
-    margin: 0 auto; /* Center the header */
+    max-width: 1000px; 
+    padding: 20px; 
+    margin: 0 auto; 
 }
 
 header h1 {
@@ -54,67 +54,45 @@ header button {
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
-    border: none; /* Remove default border */
-    background-color: #2A53C1; /* Primary Blue */
-    color: white; /* Text color */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    border: none; 
+    background-color: #2A53C1; 
+    color: white; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
 }
 
 header button:hover {
-    background-color: #1E3A87; /* Darker shade of blue for hover effect */
+    background-color: #1E3A87; 
 }
 
 nav {
     position: relative;
-    z-index: 2; /* Забезпечити, що меню над overlay */
-    margin-top: 20px;
+    z-index: 2; 
+    margin-top:0px;
 }
 
 nav ul {
-    list-style-type: none; /* Прибираємо буліти */
-    padding: 0; /* Вирівнюємо відступи */
-    display: flex; /* Розташовуємо елементи в один рядок */
-    gap: 20px; /* Відстань між пунктами меню */
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+    gap: 20px; 
 }
 
 
 
 nav ul li a {
-    color: white; /* Білий текст */
-    text-decoration: none; /* Прибираємо підкреслення */
-    font-size: 1.2em; /* Збільшуємо розмір тексту */
-    padding: 10px 20px; /* Відступи всередині посилання */
-    border-radius: 5px; /* Додаємо закруглені кути */
-    background-color: rgba(0, 0, 0, 0.3); /* Легка прозорість фону для кнопок */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Плавний перехід кольорів при наведенні */
+    color: white; 
+    text-decoration: none; 
+    font-size: 1.2em; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    background-color: rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 nav ul li a:hover {
-    background-color: #2A53C1; /* Змінюємо фон на синій при наведенні */
-    color: white; /* Залишаємо білий текст */
-}
-/* Language Selector */
-.language-selector {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 3;
-}
-
-.language-selector select {
-    padding: 5px 10px;
-    font-size: 1em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: white;
-    color: #2A53C1;
-    transition: background-color 0.3s ease;
-}
-
-.language-selector select:hover {
-    background-color: #f0f0f0;
+    background-color: #2A53C1; 
+    color: white;
 }
 
 /* Partners Section */
@@ -132,7 +110,7 @@ nav ul li a:hover {
 .partner-logos {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Allow the logos to wrap to the next line on smaller screens */
+    flex-wrap: wrap; 
     gap: 20px;
     padding: 20px;
 }

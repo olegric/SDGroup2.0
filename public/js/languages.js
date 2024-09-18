@@ -7,7 +7,13 @@ i18next.init({
                 "header": {
                     "title": "Learn more about our services and car rental opportunities for both taxi work and personal needs.",
                     "subtitle": "Join the ranks of satisfied SD Group customers and enjoy the comfort and safety of our vehicles!",
-                    "button": "Contact Us"
+                    "button": "Contact Us",
+                    "language":"English"
+                },
+                "nav": {
+                    "Offer": "Offer",
+                    "Buy_a_Car": "Buy a Car",
+                    "Leasing_Support": "Leasing Support"
                 },
                 "footer": {
                     "contactUs": "Contact Us",
@@ -257,7 +263,13 @@ i18next.init({
                 "header": {
                     "title": "Узнайте больше о наших услугах и возможностях аренды автомобилей как для работы в такси, так и для личных нужд.",
                     "subtitle": "Присоединяйтесь к числу довольных клиентов SD Group и наслаждайтесь комфортом и безопасностью наших транспортных средств!",
-                    "button": "Связаться с нами"
+                    "button": "Связаться с нами",
+                    "language":"Русский"
+                },
+                "nav": {
+                 "Offer": "Предложение",
+                "Buy_a_Car": "Купить машину",
+                "Leasing_Support": "Поддержка лизинга"
                 },
                 "footer": {
                     "contactUs": "Связаться с нами",
@@ -510,8 +522,16 @@ i18next.init({
                 "header": {
                     "title": "Dowiedz się więcej o naszych usługach i możliwościach wynajmu samochodów zarówno do pracy w taksówce, jak i na potrzeby osobiste.",
                     "subtitle": "Dołącz do grona zadowolonych klientów SD Group i ciesz się komfortem i bezpieczeństwem naszych pojazdów!",
-                    "button": "Skontaktuj się z nami"
+                    "button": "Skontaktuj się z nami",
+                    "language":"Polski"
                 },
+                "nav": {
+                    "Offer": "Oferta",
+                    "Buy_a_Car": "Kup samochód",
+                    "Leasing_Support": "Wsparcie leasingowe"
+                },
+                
+                    
                 "footer": {
                     "contactUs": "Skontaktuj się z nami",
                     "address": "Adres",
@@ -763,8 +783,14 @@ i18next.init({
                 "header": {
                     "title": "Дізнайтеся більше про наші послуги та можливості оренди автомобілів як для таксі, так і для особистих потреб.",
                     "subtitle": "Приєднайтеся до числа задоволених клієнтів SD Group і насолоджуйтеся комфортом і безпекою наших автомобілів!",
-                    "button": "Зв'яжіться з нами"
+                    "button": "Зв'яжіться з нами",
+                    "language":"Українська"
                 },
+                "nav": {
+            "Offer": "Пропозиція",
+            "Buy_a_Car": "Купити автомобіль",
+            "Leasing_Support": "Підтримка лізингу"
+                    },
                 "footer": {
                     "contactUs": "Зв'яжіться з нами",
                     "address": "Адреса",
