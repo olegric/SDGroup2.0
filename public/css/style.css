@@ -724,12 +724,25 @@ footer .social-links a:hover {
     .carousel-item {
       display: block;
     }
+    .car-section-pc{
+        display: none;
+    }
+    .car-section-phone{
+        display: block;
+    }
+  
   }
   
   /* Адаптація для великих екранів */
   @media (min-width: 769px) {
     .carousel-item {
       display: flex;
+    }
+    .car-section-pc{
+        display: block;
+    }
+    .car-section-phone{
+        display: none;
     }
   
     .carousel-item .col-md-4 {

@@ -253,6 +253,16 @@ i18next.init({
                             "power": "Power: 122 HP",
                             "topSpeed": "Top Speed: 180 km/h",
                             "button": "Check"
+                        },
+                        {
+                            "model": "Toyota Prius Plus",
+                            "price": "900 zł/week",
+                            "engine": "Engine: 1.8 Hybrid / LPG",
+                            "transmission": "Transmission: Automatic",
+                            "fuelConsumption": "Fuel Consumption: 8 L/100km (LPG)",
+                            "power": "Power: 136 HP",
+                            "topSpeed": "Top Speed: 166 km/h",
+                            "button": "Check"
                         }
                     ]
                 }
@@ -511,6 +521,16 @@ i18next.init({
                     "fuelConsumption": "Расход топлива: 3.4 L/100km (LPG)",
                     "power": "Мощность: 122 Л.с.",
                     "topSpeed": "Максимальная скорость: 180 км/ч",
+                    "button": "Проверить"
+                },
+                {
+                    "model": "Toyota Prius Plus",
+                    "price": "900 zł/неделя",
+                    "engine": "Двигатель: 1.8 Гибрид / LPG",
+                    "transmission": "Коробка передач: Автомат",
+                    "fuelConsumption": "Расход топлива: 8 L/100km (LPG)",
+                    "power": "Мощность: 136 л.с.",
+                    "topSpeed": "Максимальная скорость: 166 км/ч",
                     "button": "Проверить"
                 }
             ]
@@ -773,6 +793,16 @@ i18next.init({
                     "power": "Moc: 122 KM",
                     "topSpeed": "Prędkość maksymalna: 180 km/h",
                     "button": "Sprawdź"
+                },
+                {
+                    "model": "Toyota Prius Plus",
+                    "price": "900 zł/tydzień",
+                    "engine": "Silnik: 1.8 Hybryda / LPG",
+                    "transmission": "Skrzynia biegów: Automatyczna",
+                    "fuelConsumption": "Zużycie paliwa: 8 L/100km (LPG)",
+                    "power": "Moc: 136 KM",
+                    "topSpeed": "Prędkość maksymalna: 166 km/h",
+                    "button": "Sprawdź"
                 }
             ]
         }
@@ -1029,6 +1059,17 @@ i18next.init({
                     "fuelConsumption": "Витрата пального: 3.4 L/100km (LPG)",
                     "power": "Потужність: 122 к.с.",
                     "topSpeed": "Максимальна швидкість: 180 км/год",
+                    "button": "Перевірити"
+                },
+                {
+                    "model": "Toyota Prius Plus",
+                    "year": "2020",
+                    "price": "900 zł/тиждень",
+                    "engine": "Двигун: 1.8 Гібрид / LPG",
+                    "transmission": "Коробка передач: Автомат",
+                    "fuelConsumption": "Витрата пального: 8 L/100km (LPG)",
+                    "power": "Потужність: 136 к.с.",
+                    "topSpeed": "Максимальна швидкість: 166 км/год",
                     "button": "Перевірити"
                 }
             ]
