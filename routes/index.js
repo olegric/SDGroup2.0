@@ -5,5 +5,9 @@ const router = express.Router();
 router.get('/', (req, res) => {
   res.render('index', { title: 'Home' });
 });
+router.get('/buycar', (req, res) => {
+  res.render('car_sales', { title: 'buycar' });
+});
+
 
 module.exports = router;

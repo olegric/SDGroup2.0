@@ -12,8 +12,7 @@ i18next.init({
                 },
                 "nav": {
                     "Offer": "Offer",
-                    "Buy_a_Car": "Buy a Car",
-                    "Leasing_Support": "Leasing Support"
+                    "Buy_a_Car": "Buy a Car/Leasing Support"
                 },
                 "footer": {
                     "contactUs": "Contact Us",
@@ -278,8 +277,8 @@ i18next.init({
                 },
                 "nav": {
                  "Offer": "Предложение",
-                "Buy_a_Car": "Купить машину",
-                "Leasing_Support": "Поддержка лизинга"
+                "Buy_a_Car": "Купить автомобиль/Лизинговая поддержка"
+                
                 },
                 "footer": {
                     "contactUs": "Связаться с нами",
@@ -547,8 +546,7 @@ i18next.init({
                 },
                 "nav": {
                     "Offer": "Oferta",
-                    "Buy_a_Car": "Kup samochód",
-                    "Leasing_Support": "Wsparcie leasingowe"
+                    "Buy_a_Car": "Kup samochód/Wsparcie leasingu"
                 },
                 
                     
@@ -818,8 +816,7 @@ i18next.init({
                 },
                 "nav": {
             "Offer": "Пропозиція",
-            "Buy_a_Car": "Купити автомобіль",
-            "Leasing_Support": "Підтримка лізингу"
+            "Buy_a_Car": "Купити автомобіль/Лізингова підтримка"
                     },
                 "footer": {
                     "contactUs": "Зв'яжіться з нами",
